@@ -154,7 +154,6 @@ const PanViewer = ({ image, alt, ref }: PanViewerProps) => {
         pandy={dy}
         onPan={onPan}
         rotation={rotation}
-        key={dx}
       >
         <img
           style={{
